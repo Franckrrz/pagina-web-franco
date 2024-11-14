@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('capturaaa.JPG');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  #buscador {
+    padding: 10px;
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+  }
+  
+  nav button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9800;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background-color: #f57c00;
+  }
+  
+  #productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .producto {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .producto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #ff9800;
+  }
+  
+  button.agregar {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.agregar:hover {
+    background-color: #388e3c;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  <style>
+
+  .producto {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 200px; 
+    text-align: center;
+  }
+
+  
+  .producto-imagen {
+    max-width: 100%;    
+    max-height: 150px;  
+    object-fit: cover;  
+    margin-bottom: 10px; 
+  }
+
+
+  h3 {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  p {
+    font-size: 14px;
+    color: #555;
+  }
+
+  button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+</style>

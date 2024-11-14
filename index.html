@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venta de Repuestos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Repuestos Xpreess</h1>
+        <input type="text" id="buscador" placeholder="Buscar productos...">
+        <button onclick="buscarProducto()">Buscar</button>
+        <button onclick="location.href='carrito.html'" id="verCarrito">Ir al Carrito</button>
+      </header>
+
+  <nav>
+    <button onclick="ordenarProductos('caro')">Del más caro al más barato</button>
+    <button onclick="ordenarProductos('barato')">Del más barato al más caro</button>
+    <button onclick="location.href='ayuda.html'">Ayuda al Cliente</button>
+    <button onclick="location.href='contactos.html'">Nuestros Contactos</button>
+  </nav>
+
+  <main id="productos">
+
+  </main>
+
+  <footer>
+    <p>Todos los derechos reservados &copy; 2024</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
